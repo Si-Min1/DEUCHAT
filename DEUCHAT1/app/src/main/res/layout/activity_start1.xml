@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chat.deuchat.Start1Activity"
+    tools:layout_editor_absoluteY="20dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="출발지점을 선택해 주세요."
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/user_start0"
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:background="@color/colorNavy"
+            android:textColor="@color/colorWhite"
+            android:text="동의대역 5번 출구" />
+
+        <Button
+            android:id="@+id/user_start1"
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:background="@color/colorNavy"
+            android:textColor="@color/colorWhite"
+            android:text="동의대역 7번 출구" />
+
+        <Button
+            android:id="@+id/user_start2"
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:background="@color/colorNavy"
+            android:textColor="@color/colorWhite"
+            android:text="가야 1치안" />
+    </LinearLayout>
+</RelativeLayout>
